@@ -14,6 +14,7 @@ app.use("/static", express.static(path.join(__dirname, "public")));
 app.use("/admin", adminRoutes);
 app.use(userRoutes);
 
-app.listen(4000, function () {
-  console.log("listening on port 5000");
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, function () {
+  console.log(`http://localhost:${PORT} adresinde calisiyor`);
 });
