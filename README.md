@@ -43,5 +43,5 @@ islev yok:
 - Yonetici sayfalari (`/admin` ile baslayan uc adres) yalnizca birer baslik
   iceriyor -- form da, liste de yazilmamis
 - `index.html` ve `blogs.html` birebir ayni dosya
-- Rotalar `router.get` yerine `router.use` ile tanimli oldugu icin `/`
-  eslesmeyen her adresi yakaliyor; 404 sayfasi yok
+- Yazi ekleme/duzenleme icin bir arka uc yok; yonetici adresleri yalnizca
+  statik dosya donduruyor
